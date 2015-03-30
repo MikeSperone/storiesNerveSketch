@@ -1,0 +1,28 @@
+<b>Stories From The Nerve Sketchbook</b>
+
+Harvestworks International Artists' Collective (http://www.harvestworks.org/hiac/)
+Mike Sperone - code included here
+Joshua Booth - code not currently included here (twitter characters translation to audio)
+Minah Park - design/sculpture
+Daniel Belquer - HIAC director
+
+Description
+
+
+
+Files here:
+  Twitter interaction:
+    Processing using the Twitter4j library
+    Tweets1 folder - contains the processing file
+
+  MaxMSP patches:
+    TWITTER_HW_PROJECTd.maxpat  - main visual patch (open this)
+    tweetProcReceive.maxpat     - subpatcher that handles udp interaction from Processing file to main Max patch
+  MaxMSP collective (everything needed to run via Max Runtime):
+    TWITTER_HW_PROJECTd.mxj
+  
+  Presets file:  Corner pins set to locations that fit each day of the last installation - starting points to go from
+    testPreset.maxpresets
+  
+  Word Wrapping:  Handles word wrapping to get Tweets onto more than one line with appropriate line breaks
+    wordWrap.js
